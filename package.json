@@ -1,0 +1,17 @@
+{
+  "name": "microtip",
+  "version": "0.0.1",
+  "description": "A modern, ultra light css tooltip library",
+  "style": "src/microtip.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tooltip",
+    "css",
+    "css",
+    "tooltip"
+  ],
+  "author": "Indrashish Ghosh",
+  "license": "MIT"
+}
