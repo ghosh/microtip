@@ -2,6 +2,7 @@
 
 A modern, ultra lightweight css tooptip library. Just `1kb` minified and gzipped.
 
+&nbsp;
 ## Table of Contents
 - [Installation](#installation)
 - [Setup](#setup)
@@ -12,29 +13,24 @@ A modern, ultra lightweight css tooptip library. Just `1kb` minified and gzipped
 ## Installation
 
 **via npm**
-
-Install the package using npm:-
-```
+```bash
 npm install microtip
 ```
 
 **via yarn**
-
-Install the package via yarn:-
-```
+```bash
 yarn add microtip
 ```
 
 **via CDN**
-
-Directly include the link to the css into your project:-
 ```
 https://unpkg.com/microtip/microtip.css
 ```
 
 **direct download**
-
-Download the file directly from github
+```bash
+curl -o microtip https://github.com/ghosh/microtip/blob/master/microtip.css
+```
 
 &nbsp;
 ## Setup
