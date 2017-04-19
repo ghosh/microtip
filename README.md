@@ -13,12 +13,12 @@ A modern, ultra lightweight css tooptip library. Just `1kb` minified and gzipped
 ## Installation
 
 **via npm**
-```bash
+```shell
 npm install microtip
 ```
 
 **via yarn**
-```bash
+```shell
 yarn add microtip
 ```
 
@@ -28,7 +28,7 @@ https://unpkg.com/microtip/microtip.css
 ```
 
 **direct download**
-```bash
+```shell
 curl -o microtip https://github.com/ghosh/microtip/blob/master/microtip.css
 ```
 
