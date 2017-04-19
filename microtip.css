@@ -1,6 +1,11 @@
-/*******************************
- Default Tooltip styles
-*******************************/
+@charset "UTF-8";
+
+/*
+ * microtip.css
+ * Licensed under the MIT license
+ * Copyright (c) 2017 Indrashish Ghosh
+ */
+
 [data-microtip] {
   position: relative;
 }
@@ -13,7 +18,7 @@
   will-change: transform;
   opacity: 0;
   pointer-events: none;
-  transition: all var(--microtip-transition-duration, 0.18s) var(--microtip-transition-easing, ease-in-out) var(--microtip-transition-delay, 0s);
+  transition: all var(--microtip-transition-duration, .18s) var(--microtip-transition-easing, ease-in-out) var(--microtip-transition-delay, 0s);
   position: absolute;
   box-sizing: border-box;
   z-index: 10;
@@ -26,9 +31,9 @@
 }
 
 [data-microtip]:after {
-  background: rgba(17, 17, 17, 0.9);
+  background: rgba(17, 17, 17, .9);
   border-radius: 4px;
-  color: #fff;
+  color: #ffffff;
   content: attr(data-microtip);
   font-size: 12px;
   padding: .5em 1em;

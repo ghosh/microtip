@@ -1,13 +1,18 @@
 {
   "name": "microtip",
-  "version": "0.0.3",
-  "description": "A modern, ultra light css tooltip library",
+  "version": "0.0.4",
+  "description": "A modern, ultra light css tooltip library. Just 1kb minified and gzipped",
   "style": "microtip.css",
   "keywords": [
     "tooltip",
     "css",
-    "tooltip"
+    "css variables",
+    "1kb"
   ],
+  "scripts": {
+    "minify": "minify microtip.css",
+    "test": "stylelint microtip.css"
+  },
   "author": "Indrashish Ghosh",
   "license": "MIT",
   "repository": {
@@ -16,5 +21,9 @@
   },
   "bugs": {
     "url": "https://github.com/ghosh/microtip/issues"
+  },
+  "devDependencies": {
+    "minifier": "^0.8.1",
+    "stylelint": "^7.10.1"
   }
 }

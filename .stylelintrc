@@ -1,0 +1,27 @@
+{
+  "rules": {
+    "color-hex-case": "lower",
+    "color-hex-length": "long",
+    "color-no-invalid-hex": true,
+    "function-calc-no-unspaced-operator": true,
+    "function-name-case": "lower",
+    "function-parentheses-space-inside": "never",
+    "function-url-quotes": "always",
+    "number-leading-zero": "never",
+    "number-no-trailing-zeros": true,
+    "string-quotes": "double",
+    "length-zero-no-unit": true,
+    "unit-case": "lower",
+    "unit-no-unknown": true,
+    "value-keyword-case": "lower",
+    "value-list-comma-space-after": "always",
+    "shorthand-property-no-redundant-values": true,
+    "property-case": "lower",
+    "declaration-block-no-redundant-longhand-properties": true,
+    "declaration-block-no-duplicate-properties": true,
+    "block-closing-brace-empty-line-before": "never",
+    "block-no-empty": true,
+    "indentation": 2,
+    "no-extra-semicolons": true
+  }
+}
