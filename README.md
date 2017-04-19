@@ -8,29 +8,35 @@ A modern, ultra lightweight css tooptip library. Just `1kb` minified and gzipped
 - [Usage](#usage)
 - [Customization](#customization)
 
+&nbsp;
 ## Installation
 
 **via npm**
-	Install the package using npm:-
+
+Install the package using npm:-
 ```
 npm install microtip
 ```
 
 **via yarn**
-	Install the package via yarn:-
+
+Install the package via yarn:-
 ```
 yarn add microtip
 ```
 
 **via CDN**
-	Directly include the link to the css into your project:-
+
+Directly include the link to the css into your project:-
 ```
 https://unpkg.com/microtip/microtip.css
 ```
 
 **direct download**
-	Download the file directly from github
 
+Download the file directly from github
+
+&nbsp;
 ## Setup
 
 **in PostCSS**
@@ -49,7 +55,7 @@ import microtip from 'microtip/microtip.min.css'
 ```
 Make sure, `node_modules` is included in the `includePaths` setting. You can then directly import the library into your file.
 
-
+&nbsp;
 ## Usage
 
 Using the tooltip is incredibly simple. Simply add a custom `data-microtip` attribute to the element on which you want the tooltip to appear. The tooltip message is the attribute value. Example:-
@@ -73,7 +79,7 @@ By default, the tooltip will takeup only the size it requires to show the text. 
 
 **Note** - `fit` sets the width of the tooltip to be the same as the width on the element. It only works along with the `top` and `bottom` position modifiers.
 
-
+&nbsp;
 ## Customization
 
 Microtip uses css variables, which allows you to customize the behavior of the tooltip as per your needs.
