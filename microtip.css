@@ -13,7 +13,7 @@
   will-change: transform;
   opacity: 0;
   pointer-events: none;
-  transition: all 0.18s ease-out 0s;
+  transition: all var(--microtip-transition-duration, 0.18s) var(--microtip-transition-easing, ease-in-out) var(--microtip-transition-delay, 0s);
   position: absolute;
   box-sizing: border-box;
   z-index: 10;
@@ -57,40 +57,40 @@
 }
 
 [data-microtip-position|="top"]:before {
-  transform: translateY(0px) translateX(-50%);
+  transform: translate3d(-50%, 0, 0);
   bottom: 100%;
   left: 50%;
 }
 
 [data-microtip-position|="top"]:hover:before {
-  transform: translateY(-5px) translateX(-50%);
+  transform: translate3d(-50%, -5px, 0);
 }
 
 [data-microtip-position="top"]:after {
-  transform: translateY(0px) translateX(-50%);
+  transform: translate3d(-50%, 0, 0);
   bottom: 100%;
 }
 
 [data-microtip-position="top"]:hover:after {
-  transform: translateY(-5px) translateX(-50%);
+  transform: translate3d(-50%, -5px, 0);
 }
 
 [data-microtip-position="top-left"]:after {
-  transform: translateY(0px) translateX(calc(-100% + 16px));
+  transform: translate3d(calc(-100% + 16px), 0, 0);
   bottom: 100%;
 }
 
 [data-microtip-position="top-left"]:hover:after {
-  transform: translateY(-5px) translateX(calc(-100% + 16px));
+  transform: translate3d(calc(-100% + 16px), -5px, 0);
 }
 
 [data-microtip-position="top-right"]:after {
-  transform: translateY(0px) translateX(calc(0% + -16px));
+  transform: translate3d(calc(0% + -16px), 0, 0);
   bottom: 100%;
 }
 
 [data-microtip-position="top-right"]:hover:after {
-  transform: translateY(-5px) translateX(calc(0% + -16px));
+  transform: translate3d(calc(0% + -16px), -5px, 0);
 }
 
 [data-microtip-position|="bottom"]:before {
@@ -106,41 +106,41 @@
 }
 
 [data-microtip-position|="bottom"]:before {
-  transform: translateY(-10px) translateX(-50%);
+  transform: translate3d(-50%, -10px, 0);
   bottom: auto;
   left: 50%;
   top: 100%;
 }
 
 [data-microtip-position|="bottom"]:hover:before {
-  transform: translateY(0px) translateX(-50%);
+  transform: translate3d(-50%, 0, 0);
 }
 
 [data-microtip-position="bottom"]:after {
-  transform: translateY(-10px) translateX(-50%);
+  transform: translate3d(-50%, -10px, 0);
   top: 100%;
 }
 
 [data-microtip-position="bottom"]:hover:after {
-  transform: translateY(0px) translateX(-50%);
+  transform: translate3d(-50%, 0, 0);
 }
 
 [data-microtip-position="bottom-left"]:after {
-  transform: translateY(-10px) translateX(calc(-100% + 16px));
+  transform: translate3d(calc(-100% + 16px), -10px, 0);
   top: 100%;
 }
 
 [data-microtip-position="bottom-left"]:hover:after {
-  transform: translateY(0px) translateX(calc(-100% + 16px));
+  transform: translate3d(calc(-100% + 16px), 0, 0);
 }
 
 [data-microtip-position="bottom-right"]:after {
-  transform: translateY(-10px) translateX(calc(0% + -16px));
+  transform: translate3d(calc(0% + -16px), -10px, 0);
   top: 100%;
 }
 
 [data-microtip-position="bottom-right"]:hover:after {
-  transform: translateY(0px) translateX(calc(0% + -16px));
+  transform: translate3d(calc(0% + -16px), 0, 0);
 }
 
 [data-microtip-position="left"]:before,
@@ -149,7 +149,7 @@
   left: auto;
   right: 100%;
   top: 50%;
-  transform: translate(10px, -50%);
+  transform: translate3d(10px, -50%, 0);
 }
 
 [data-microtip-position="left"]:before {
@@ -166,7 +166,7 @@
 
 [data-microtip-position="left"]:hover:before,
 [data-microtip-position="left"]:hover:after {
-  transform: translate(0, -50%);
+  transform: translate3d(0, -50%, 0);
 }
 
 [data-microtip-position="right"]:before,
@@ -174,7 +174,7 @@
   bottom: auto;
   left: 100%;
   top: 50%;
-  transform: translate(-10px, -50%);
+  transform: translate3d(-10px, -50%, 0);
 }
 
 [data-microtip-position="right"]:before {
@@ -191,7 +191,7 @@
 
 [data-microtip-position="right"]:hover:before,
 [data-microtip-position="right"]:hover:after {
-  transform: translate(0, -50%);
+  transform: translate3d(0, -50%, 0);
 }
 
 /*******************************
