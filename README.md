@@ -87,10 +87,9 @@ Microtip uses css variables, which allows you to customize the behavior of the t
 Example:-
 ```css
 :root {
-	--microtip-transition-duration: 0.5s;
-	--microtip-transition-delay: 1s;
-	--microtip-transition-easing: ease-out;
-
+ --microtip-transition-duration: 0.5s;
+ --microtip-transition-delay: 1s;
+ --microtip-transition-easing: ease-out;
 }
 ```
 
