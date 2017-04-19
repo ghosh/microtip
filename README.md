@@ -1,6 +1,6 @@
 # Microtip.css
 
-A modern, ultra lightweight css tooptip library
+A modern, ultra lightweight css tooptip library. Just `1kb` minified and gzipped.
 
 ## Installation
 
@@ -32,7 +32,7 @@ Using the tooltip is incredibly simple. Simply add a custom `data-microtip` attr
 <button data-microtip="Hey tooltip!" >
 ```
 
-#### Position Modifiers
+### Position Modifiers
 
 You can change the direction of the tooltip by adding a `data-microtip-position` attribute. The accepted values of this attribute are:- `top`, `top-left`, `top-right`, `bottom`, `bottom-left`, `bottom-right`, `left` and `right`. Example:-
 ```html
@@ -49,10 +49,7 @@ By default, the tooltip will takeup only the size it requires to show the text. 
 **Note** - `fit` sets the width of the tooltip to be the same as the width on the element. It only works along with the `top` and `bottom` position modifiers.
 
 
-
-
 &nbsp;
-
 
 <p align="center">✌️</p>
 <p align="center">
