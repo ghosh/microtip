@@ -9,7 +9,7 @@
 [data-microtip]:after {
   transform: translate3d(0, 0, 0);
   -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
   will-change: transform;
   opacity: 0;
   pointer-events: none;

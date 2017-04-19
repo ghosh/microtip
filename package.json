@@ -1,17 +1,20 @@
 {
   "name": "microtip",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A modern, ultra light css tooltip library",
-  "style": "src/microtip.css",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "style": "microtip.css",
   "keywords": [
     "tooltip",
-    "css",
     "css",
     "tooltip"
   ],
   "author": "Indrashish Ghosh",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ghosh/microtip"
+  },
+  "bugs": {
+    "url": "https://github.com/ghosh/microtip/issues"
+  }
 }
