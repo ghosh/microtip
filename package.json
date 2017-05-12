@@ -1,0 +1,35 @@
+{
+  "name": "microtip",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "stylelint *.css",
+    "minify": "minify style.css && minify microtip.css",
+    "start": "reload -b",
+    "deploy": "gh-pages-deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghosh/microtip.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ghosh/microtip/issues"
+  },
+  "homepage": "https://github.com/ghosh/microtip#readme",
+  "devDependencies": {
+    "gh-pages-deploy": "^0.4.2",
+    "minifier": "^0.8.1",
+    "reload": "^1.1.3",
+    "stylelint": "^7.10.1"
+  },
+  "gh-pages-deploy": {
+    "prep": [
+      "minify",
+      "test"
+    ],
+    "noprompt": true
+  },
+}
