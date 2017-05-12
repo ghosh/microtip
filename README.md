@@ -75,9 +75,9 @@ Make sure, `node_modules` is included in the `includePaths` setting. You can the
 &nbsp;
 ## Usage
 
-Using the tooltip is incredibly simple. Simply add a custom `data-microtip` attribute to the element on which you want the tooltip to appear. The tooltip message is the attribute value. Example:-
+Using the tooltip is incredibly simple. Simply add a custom `data-microtip` attribute to the element on which you want the tooltip to appear. The tooltip message is the attribute value. This along with a position modifier is all you need to get going. Example:-
 ```html
-<button data-microtip="Hey tooltip!" >
+<button data-microtip="Hey tooltip!" data-microtip-position="up" >
 ```
 
 ### Position Modifiers
@@ -111,6 +111,7 @@ Microtip uses css variables, which allows you to customize the behavior of the t
 | `--microtip-font-weight`         | The font weight of the text in tooltip             | `normal`      |
 | `--microtip-text-transform`      | Controls the casing of the text                    | `none`        |
 
+&nbsp;
 
 Example:-
 ```css
