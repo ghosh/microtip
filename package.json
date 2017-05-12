@@ -1,6 +1,6 @@
 {
   "name": "microtip",
-  "version": "0.0.4",
+  "version": "0.1.4",
   "description": "A modern, ultra light css tooltip library. Just 1kb minified and gzipped",
   "style": "microtip.css",
   "keywords": [

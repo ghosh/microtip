@@ -2,6 +2,10 @@
 
 /*
  * microtip.css
+ *
+ * Modern lightweight css tooltips
+ * Less than 1kb
+ *
  * Licensed under the MIT license
  * Copyright (c) 2017 Indrashish Ghosh
  */
@@ -35,7 +39,9 @@
   border-radius: 4px;
   color: #ffffff;
   content: attr(data-microtip);
-  font-size: 12px;
+  font-size: var(--microtip-font-size, 13px);
+  font-weight: var(--microtip-font-weight, normal);
+  text-transform: var(--microtip-text-transform, none);
   padding: .5em 1em;
   white-space: nowrap;
   box-sizing: content-box;
@@ -71,9 +77,10 @@
   transform: translate3d(-50%, -5px, 0);
 }
 
-[data-microtip-position="top"]:after {
+[data-microtip-position|="top"]:after {
   transform: translate3d(-50%, 0, 0);
   bottom: 100%;
+  left: 50%;
 }
 
 [data-microtip-position="top"]:hover:after {
@@ -121,9 +128,10 @@
   transform: translate3d(-50%, 0, 0);
 }
 
-[data-microtip-position="bottom"]:after {
+[data-microtip-position|="bottom"]:after {
   transform: translate3d(-50%, -10px, 0);
   top: 100%;
+  left: 50%;
 }
 
 [data-microtip-position="bottom"]:hover:after {
