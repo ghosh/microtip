@@ -128,6 +128,10 @@ Example:-
 The above code will transition the tooltip over `0.5s` while applying an easing of type `ease-out` after a delay of `1s`. The text will be `bold` and `uppercase` and have a font size of `13px`.
 
 &nbsp;
+## Credits
+- [Claudio Holanda](https://twitter.com/kazzkiq) - Whose work inspired this project
+
+&nbsp;
 
 <p align="center">✌️</p>
 <p align="center">
