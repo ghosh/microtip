@@ -9,7 +9,7 @@
   <a href="https://opensource.org/licenses/MIT" target="_blank">
     <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License">
   </a>
-  <a href="https://api.travis-ci.org/ghosh/microtip" target="_blank">
+  <a href="https://travis-ci.org/ghosh/microtip" target="_blank">
     <img src="https://api.travis-ci.org/ghosh/microtip.svg" alt="Build Status">
   </a>
 </p>
