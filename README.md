@@ -63,7 +63,7 @@ curl -o microtip https://github.com/ghosh/microtip/blob/master/microtip.css
 
 **in Webpack**
 ```javascript
-import microtip from 'microtip/microtip.min.css'
+import microtip from 'microtip/microtip.css'
 ```
 
 **in SCSS**
