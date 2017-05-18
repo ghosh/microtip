@@ -56,7 +56,9 @@
 }
 
 [aria-label]:hover:before,
-[aria-label]:hover:after {
+[aria-label]:hover:after,
+[aria-label]:focus:before,
+[aria-label]:focus:after {
   opacity: 1;
   pointer-events: auto;
 }
