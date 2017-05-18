@@ -18,12 +18,12 @@
   [1] Base Styles
 -------------------------------------------------*/
 
-[aria-label] {
+[aria-label][role="tooltip"] {
   position: relative;
 }
 
-[aria-label]:before,
-[aria-label]:after {
+[aria-label][role="tooltip"]:before,
+[aria-label][role="tooltip"]:after {
   transform: translate3d(0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -37,12 +37,12 @@
   transform-origin: top;
 }
 
-[aria-label]:before {
+[aria-label][role="tooltip"]:before {
   background-size: 100% auto !important;
   content: "";
 }
 
-[aria-label]:after {
+[aria-label][role="tooltip"]:after {
   background: rgba(17, 17, 17, .9);
   border-radius: 4px;
   color: #ffffff;
@@ -55,10 +55,10 @@
   box-sizing: content-box;
 }
 
-[aria-label]:hover:before,
-[aria-label]:hover:after,
-[aria-label]:focus:before,
-[aria-label]:focus:after {
+[aria-label][role="tooltip"]:hover:before,
+[aria-label][role="tooltip"]:hover:after,
+[aria-label][role="tooltip"]:focus:before,
+[aria-label][role="tooltip"]:focus:after {
   opacity: 1;
   pointer-events: auto;
 }
