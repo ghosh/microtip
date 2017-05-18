@@ -18,12 +18,12 @@
   [1] Base Styles
 -------------------------------------------------*/
 
-[data-microtip] {
+[aria-label] {
   position: relative;
 }
 
-[data-microtip]:before,
-[data-microtip]:after {
+[aria-label]:before,
+[aria-label]:after {
   transform: translate3d(0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -37,16 +37,16 @@
   transform-origin: top;
 }
 
-[data-microtip]:before {
+[aria-label]:before {
   background-size: 100% auto !important;
   content: "";
 }
 
-[data-microtip]:after {
+[aria-label]:after {
   background: rgba(17, 17, 17, .9);
   border-radius: 4px;
   color: #ffffff;
-  content: attr(data-microtip);
+  content: attr(aria-label);
   font-size: var(--microtip-font-size, 13px);
   font-weight: var(--microtip-font-weight, normal);
   text-transform: var(--microtip-text-transform, none);
@@ -55,8 +55,8 @@
   box-sizing: content-box;
 }
 
-[data-microtip]:hover:before,
-[data-microtip]:hover:after {
+[aria-label]:hover:before,
+[aria-label]:hover:after {
   opacity: 1;
   pointer-events: auto;
 }
