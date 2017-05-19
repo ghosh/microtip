@@ -99,7 +99,7 @@ By default, the tooltip will takeup only the size it requires to show the text. 
 &nbsp;
 ## Customization
 
-Microtip uses css variables, which allows you to customize the behavior of the tooltip as per your needs.
+Microtip uses **css variables**, which allows you to customize the behavior of the tooltip as per your needs.
 
 
 | Variable                         | Description                                        | Default Value |
