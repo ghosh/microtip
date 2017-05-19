@@ -125,7 +125,23 @@ Example:-
 }
 ```
 
-The above code will transition the tooltip over `0.5s` while applying an easing of type `ease-out` after a delay of `1s`. The text will be `bold` and `uppercase` and have a font size of `13px`.
+The above code will cause all the tooltips to transition over `0.5s` while applying an easing of type `ease-out` after a delay of `1s`. The text will be `bold` and `uppercase` and have a font size of `13px`.
+
+You could also customize the tooltip for individual instances by using a selector more specific than `:root`. Example:-
+
+```css
+.button {
+ --microtip-transition-duration: 0.2s;
+ --microtip-transition-delay: 0s;
+ --microtip-transition-easing: ease-in-out;
+}
+```
+
+The above code would only affect the tooltips shown on any `button` element.
+
+For more on css variables see [here](https://css-tricks.com/now-css-custom-properties-thing-value-parts-can-changed-individually/)
+
+
 
 &nbsp;
 ## Credits
