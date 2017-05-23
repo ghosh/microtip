@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-A modern, ultra lightweight css tooptip library. Just `1kb` minified and gzipped.
+Modern, minimal css tooptip library with accesibily baked in. Just `1kb` minified and gzipped.
 </p>
 
 ---
