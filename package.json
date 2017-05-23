@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "stylelint *.css",
+    "test": "stylelint microtip.css && stylelint style.css",
     "minify": "minify style.css && minify microtip.css",
     "start": "reload -b"
   },

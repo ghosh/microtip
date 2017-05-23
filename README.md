@@ -9,13 +9,13 @@
   <a href="https://opensource.org/licenses/MIT" target="_blank">
     <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License">
   </a>
-  <a href="https://api.travis-ci.org/ghosh/uiGradients" target="_blank">
+  <a href="https://travis-ci.org/ghosh/microtip" target="_blank">
     <img src="https://api.travis-ci.org/ghosh/microtip.svg" alt="Build Status">
   </a>
 </p>
 
 <p align="center">
-A modern, ultra lightweight css tooptip library. Just `1kb` minified and gzipped.
+Modern, minimal css tooptip library with accesibily baked in. Just `1kb` minified and gzipped.
 </p>
 
 ---
@@ -63,7 +63,7 @@ curl -o microtip https://github.com/ghosh/microtip/blob/master/microtip.css
 
 **in Webpack**
 ```javascript
-import microtip from 'microtip/microtip.min.css'
+import microtip from 'microtip/microtip.css'
 ```
 
 **in SCSS**
@@ -75,23 +75,23 @@ Make sure, `node_modules` is included in the `includePaths` setting. You can the
 &nbsp;
 ## Usage
 
-Using the tooltip is incredibly simple. Simply add a custom `data-microtip` attribute to the element on which you want the tooltip to appear. The tooltip message is the attribute value. Example:-
+Using the tooltip is incredibly simple. Simply add a `aria-label` and `role="tooltip"` attribute to the element on which you want the tooltip to appear. The tooltip message is the attribute value `aria-label="your message"`. This along with a position modifier is all you need to get going. Example:-
 ```html
-<button data-microtip="Hey tooltip!" >
+<button aria-label="Hey tooltip!" data-microtip-position="up" role="tooltip">
 ```
 
 ### Position Modifiers
 
 You can change the direction of the tooltip by adding a `data-microtip-position` attribute. The accepted values of this attribute are:- `top`, `top-left`, `top-right`, `bottom`, `bottom-left`, `bottom-right`, `left` and `right`. Example:-
 ```html
-<button data-microtip="Hey tooltip!" data-microtip-position="top-left">
+<button aria-label="Hey tooltip!" data-microtip-position="top-left" role="tooltip">
 ```
 
 ### Size Modifiers
 
 By default, the tooltip will takeup only the size it requires to show the text. You can specify sizes by adding a `data-microtip-size` attribute. The accepted values include `small`, `medium`, `large` and `fit`. Example:-
 ```html
-<button data-microtip="This is a decently long text!" data-microtip-position="top-left" data-microtip-size="medium">
+<button aria-label="This is a decently long text!" data-microtip-position="top-left" data-microtip-size="medium" role="tooltip">
 ```
 
 **Note** - `fit` sets the width of the tooltip to be the same as the width on the element. It only works along with the `top` and `bottom` position modifiers.
@@ -99,7 +99,7 @@ By default, the tooltip will takeup only the size it requires to show the text. 
 &nbsp;
 ## Customization
 
-Microtip uses css variables, which allows you to customize the behavior of the tooltip as per your needs.
+Microtip uses **css variables**, which allows you to customize the behavior of the tooltip as per your needs.
 
 
 | Variable                         | Description                                        | Default Value |
@@ -111,6 +111,7 @@ Microtip uses css variables, which allows you to customize the behavior of the t
 | `--microtip-font-weight`         | The font weight of the text in tooltip             | `normal`      |
 | `--microtip-text-transform`      | Controls the casing of the text                    | `none`        |
 
+&nbsp;
 
 Example:-
 ```css
@@ -124,7 +125,27 @@ Example:-
 }
 ```
 
-The above code will transition the tooltip over `0.5s` while applying an easing of type `ease-out` after a delay of `1s`. The text will be `bold` and `uppercase` and have a font size of `13px`.
+The above code will cause all the tooltips to transition over `0.5s` while applying an easing of type `ease-out` after a delay of `1s`. The text will be `bold` and `uppercase` and have a font size of `13px`.
+
+You could also customize the tooltip for individual instances by using a selector more specific than `:root`. Example:-
+
+```css
+.button {
+ --microtip-transition-duration: 0.2s;
+ --microtip-transition-delay: 0s;
+ --microtip-transition-easing: ease-in-out;
+}
+```
+
+The above code would only affect the tooltips shown on any `button` element.
+
+For more on css variables see [here](https://css-tricks.com/now-css-custom-properties-thing-value-parts-can-changed-individually/)
+
+
+
+&nbsp;
+## Credits
+- [Claudio Holanda](https://twitter.com/kazzkiq) - Whose work inspired this project
 
 &nbsp;
 

@@ -3,8 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 
-	<title>Microtip - Modern, lightweight css tooptips. 1kb only</title>
-  <meta name="description" content="A modern, ultra lightweight css tooptip library. Just `1kb` minified and gzipped.">
+	<title>Microtip - Modern, minimal and accessible css tooptips. 1kb only</title>
+  <meta name="description" content="A modern, minimal css tooptip library with accesibily baked in. Just `1kb` minified and gzipped.">
 
 	<link rel="stylesheet" href="style.min.css">
 	<link rel="stylesheet" href="microtip.min.css">
@@ -73,7 +73,7 @@
 				</h1>
 				<input type="text" class="mast__input alias" value="npm install microtip" readonly>
 				<p class="accent">
-					Just <strong data-microtip="Yup, truestory" data-microtip-position="bottom">1kb</strong> minified and gzipped.
+					Just <strong role="tooltip" aria-label="Yup, truestory" data-microtip-position="bottom">1kb</strong> minified and gzipped.
 				</p>
 			</div>
 		</section>
@@ -85,17 +85,17 @@
 
 					<ul class="nav">
 						<li class="nav__item">
-							<a href="javascript:;" class="nav__link outline" data-microtip="Its me. I am a leftist. Get it?" data-microtip-position="top-left">
+							<a href="javascript:;" class="nav__link outline" role="tooltip" aria-label="Its me. I am a leftist. Get it?" data-microtip-position="top-left">
 								Top Left
 							</a>
 						</li>
 						<li class="nav__item">
-							<a href="javascript:;" class="nav__link outline" data-microtip="I continue in single line unless you specify a size" data-microtip-position="top">
+							<a href="javascript:;" class="nav__link outline" role="tooltip" aria-label="I continue in single line unless you specify a size" data-microtip-position="top">
 								Top
 							</a>
 						</li>
 						<li class="nav__item">
-							<a href="javascript:;" class="nav__link outline" data-microtip="Emoji? No problem 😎" data-microtip-position="top-right">
+							<a href="javascript:;" class="nav__link outline" role="tooltip" aria-label="Emoji? No problem 😎" data-microtip-position="top-right">
 								Top Right
 							</a>
 						</li>
@@ -103,7 +103,7 @@
 
 					<ul class="nav">
 						<li class="nav__item">
-							<a href="javascript:;" class="nav__link outline" data-microtip="I am a large tooltip. I come with no wrapping or pretty pink bows. I am who I am from my head to my toes. I tend to get loud when speaking my mind. Even a little crazy some of the time." data-microtip-position="left" data-microtip-size="large">
+							<a href="javascript:;" class="nav__link outline" role="tooltip" aria-label="I am a large tooltip. I come with no wrapping or pretty pink bows. I am who I am from my head to my toes. I tend to get loud when speaking my mind. Even a little crazy some of the time." data-microtip-position="left" data-microtip-size="large">
 								Left
 							</a>
 						</li>
@@ -111,7 +111,7 @@
 							<span class="demo__center">🙌</span>
 						</li>
 						<li class="nav__item">
-							<a href="javascript:;" class="nav__link outline" data-microtip="I am a medium size tooltip. Use me for slightly longer messages" data-microtip-position="right" data-microtip-size="medium">
+							<a href="javascript:;" class="nav__link outline" role="tooltip" aria-label="I am a medium size tooltip. Use me for slightly longer messages" data-microtip-position="right" data-microtip-size="medium">
 								Right
 							</a>
 						</li>
@@ -119,17 +119,17 @@
 
 					<ul class="nav">
 						<li class="nav__item">
-							<a href="javascript:;" class="nav__link outline" data-microtip="I am a medium sized tooltip to the bottom left" data-microtip-position="bottom-left" data-microtip-size="medium">
+							<a href="javascript:;" class="nav__link outline" role="tooltip" aria-label="I am a medium sized tooltip to the bottom left" data-microtip-position="bottom-left" data-microtip-size="medium">
 								Bottom Left
 							</a>
 						</li>
 						<li class="nav__item">
-							<a href="javascript:;" class="nav__link outline" data-microtip="I am a small message" data-microtip-position="bottom" data-microtip-size="small">
+							<a href="javascript:;" class="nav__link outline" role="tooltip" aria-label="I am a small message" data-microtip-position="bottom" data-microtip-size="small">
 								Bottom
 							</a>
 						</li>
 						<li class="nav__item">
-							<a href="javascript:;" class="nav__link outline" data-microtip="Look, its me at the bottom right" data-microtip-position="bottom-right">
+							<a href="javascript:;" class="nav__link outline" role="tooltip" aria-label="Look, its me at the bottom right" data-microtip-position="bottom-right">
 								Bottom Right
 							</a>
 						</li>
