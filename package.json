@@ -10,20 +10,18 @@
     "1kb"
   ],
   "scripts": {
-    "minify": "minify microtip.css",
+    "minify": "cleancss -o microtip.min.css microtip.css",
     "test": "stylelint microtip.css"
   },
   "author": "Indrashish Ghosh",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ghosh/microtip"
-  },
+  "repository": "https://github.com/ghosh/microtip",
   "bugs": {
     "url": "https://github.com/ghosh/microtip/issues"
   },
   "devDependencies": {
-    "minifier": "^0.8.1",
+    "clean-css-cli": "^4.1.3",
     "stylelint": "^7.10.1"
-  }
+  },
+  "main": "index.js"
 }
