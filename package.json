@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "stylelint microtip.css && stylelint style.css",
-    "minify": "minify style.css && minify microtip.css",
+    "minify": "cleancss -o microtip.min.css microtip.css && cleancss -o style.min.css style.css",
     "start": "reload -b"
   },
   "repository": {
