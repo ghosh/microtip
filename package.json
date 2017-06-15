@@ -10,6 +10,7 @@
     "1kb"
   ],
   "scripts": {
+    "sass": "sass microtip.scss:microtip.css",
     "minify": "minify microtip.css",
     "test": "stylelint microtip.css"
   },
