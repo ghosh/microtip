@@ -21,7 +21,7 @@
   "devDependencies": {
     "gh-pages-deploy": "^0.4.2",
     "minifier": "^0.8.1",
-    "reload": "^1.1.3",
-    "stylelint": "^7.10.1"
+    "reload": "^1.1.6",
+    "stylelint": "^7.11.1"
   }
 }

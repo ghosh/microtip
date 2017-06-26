@@ -1004,9 +1004,9 @@ kind-of@^3.0.2:
   dependencies:
     is-buffer "^1.1.5"
 
-known-css-properties@^0.0.7:
-  version "0.0.7"
-  resolved "https://registry.yarnpkg.com/known-css-properties/-/known-css-properties-0.0.7.tgz#9104343a2adfd8ef3b07bdee7a325e4d44ed9371"
+known-css-properties@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/known-css-properties/-/known-css-properties-0.2.0.tgz#899c94be368e55b42d7db8d5be7d73a4a4a41454"
 
 lazy-cache@^1.0.3:
   version "1.0.4"
@@ -1059,6 +1059,10 @@ lru-queue@0.1:
 map-obj@^1.0.0, map-obj@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/map-obj/-/map-obj-1.0.1.tgz#d933ceb9205d82bdcf4886f6742bdc2b4dea146d"
+
+mathml-tag-names@^2.0.0:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/mathml-tag-names/-/mathml-tag-names-2.0.1.tgz#8d41268168bf86d1102b98109e28e531e7a34578"
 
 media-typer@0.3.0:
   version "0.3.0"
@@ -1367,7 +1371,7 @@ path-type@^1.0.0:
     pify "^2.0.0"
     pinkie-promise "^2.0.0"
 
-pify@^2.0.0:
+pify@^2.0.0, pify@^2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/pify/-/pify-2.3.0.tgz#ed141a6ac043a849ea588498e7dca8b15330e90c"
 
@@ -1588,9 +1592,9 @@ regex-cache@^0.4.2:
     is-equal-shallow "^0.1.3"
     is-primitive "^2.0.0"
 
-reload@^1.1.3:
-  version "1.1.5"
-  resolved "https://registry.yarnpkg.com/reload/-/reload-1.1.5.tgz#6f65dbbc35a87a9a152f987159c5bea899fe4ff4"
+reload@^1.1.6:
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/reload/-/reload-1.1.6.tgz#61d7e861e3a02d32fc6b603bdff4e82dc053a9fe"
   dependencies:
     cli-color "~1.1.0"
     commander "~2.9.0"
@@ -1629,9 +1633,9 @@ require-module@^0.1.0:
   dependencies:
     resolve "~0.6.1"
 
-resolve-from@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/resolve-from/-/resolve-from-2.0.0.tgz#9480ab20e94ffa1d9e80a804c7ea147611966b57"
+resolve-from@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/resolve-from/-/resolve-from-3.0.0.tgz#b22c7af7d9d6881bc8b6e653335eebcb0a188748"
 
 resolve@^0.7.1:
   version "0.7.4"
@@ -1841,9 +1845,9 @@ stylehacks@^2.3.2:
     text-table "^0.2.0"
     write-file-stdout "0.0.2"
 
-stylelint@^7.10.1:
-  version "7.10.1"
-  resolved "https://registry.yarnpkg.com/stylelint/-/stylelint-7.10.1.tgz#209a7ce5e781fc2a62489fbb31ec0201ec675db2"
+stylelint@^7.11.1:
+  version "7.11.1"
+  resolved "https://registry.yarnpkg.com/stylelint/-/stylelint-7.11.1.tgz#c816c658baf7d9e5d167d82273fead37c97ae49d"
   dependencies:
     autoprefixer "^6.0.0"
     balanced-match "^0.4.0"
@@ -1860,12 +1864,14 @@ stylelint@^7.10.1:
     html-tags "^1.1.1"
     ignore "^3.2.0"
     imurmurhash "^0.1.4"
-    known-css-properties "^0.0.7"
+    known-css-properties "^0.2.0"
     lodash "^4.17.4"
     log-symbols "^1.0.2"
+    mathml-tag-names "^2.0.0"
     meow "^3.3.0"
     micromatch "^2.3.11"
     normalize-selector "^0.2.0"
+    pify "^2.3.0"
     postcss "^5.0.20"
     postcss-less "^0.14.0"
     postcss-media-query-parser "^0.2.0"
@@ -1874,7 +1880,7 @@ stylelint@^7.10.1:
     postcss-scss "^0.4.0"
     postcss-selector-parser "^2.1.1"
     postcss-value-parser "^3.1.1"
-    resolve-from "^2.0.0"
+    resolve-from "^3.0.0"
     specificity "^0.3.0"
     string-width "^2.0.0"
     style-search "^0.1.0"
