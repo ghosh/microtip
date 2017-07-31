@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
+  <meta charset="UTF-8">
 
-	<title>Microtip - Modern, minimal and accessible css tooptips. 1kb only</title>
+  <title>Microtip - Modern, minimal and accessible css tooptips. 1kb only</title>
   <meta name="description" content="A modern, minimal css tooptip library with accesibily baked in. Just `1kb` minified and gzipped.">
 
-	<link rel="stylesheet" href="style.min.css">
-	<link rel="stylesheet" href="microtip.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+  <link rel="stylesheet" href="style.min.css">
+  <link rel="stylesheet" href="microtip.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -30,7 +30,7 @@
   <meta name="twitter:image:width" content="1200">
   <meta name="twitter:image:height" content="630">
 
-	<script>
+  <script>
 
     (function(h,o,t,j,a,r){
         h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
@@ -42,134 +42,136 @@
     })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
 
 
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-	  ga('create', 'UA-49604576-4', 'auto');
-	  ga('send', 'pageview');
+    ga('create', 'UA-49604576-4', 'auto');
+    ga('send', 'pageview');
 
-	</script>
+  </script>
 
 
 </head>
 <body>
 
-	<div class="container">
+  <div class="container">
 
-		<header class="header">
-			<div class="header__logo logo">
-				<span>Microtip</span>
-			</div>
+    <header class="header">
+      <div class="header__logo logo">
+        <span>Microtip</span>
+      </div>
 
-			<ul class="header__nav nav clearfix">
-				<li class="nav__item">
-					<a href="https://github.com/ghosh/microtip#installation" class="nav__link">
-						Documentation
-					</a>
-				</li>
-				<li class="nav__item">
-					<a href="https://github.com/ghosh/microtip" class="nav__link">
-						<span class="github"></span>
-					</a>
-				</li>
-			</ul>
-		</header>
+      <ul class="header__nav nav clearfix">
+        <li class="nav__item">
+          <a href="https://github.com/ghosh/microtip#installation" class="nav__link" title="Documentation">
+            Documentation
+          </a>
+        </li>
+        <li class="nav__item">
+          <a href="https://github.com/ghosh/microtip" class="nav__link" title="Github">
+            <span class="github"></span>
+          </a>
+        </li>
+      </ul>
+    </header>
 
-		<section class="mast">
-			<div class="mast__inner">
-				<h1>
-					A modern, elegant and minimal, css only tooltip library
-				</h1>
-				<input type="text" class="mast__input alias" value="npm install microtip" readonly>
-				<p class="accent">
-					Just <strong role="tooltip" aria-label="Yup, truestory" data-microtip-position="bottom">1kb</strong> minified and gzipped.
-				</p>
-			</div>
-		</section>
-		<!-- end .mast -->
-
-
-		<section class="demo">
-			<div class="demo__inner">
-
-					<ul class="nav">
-						<li class="nav__item">
-							<a href="javascript:;" class="nav__link outline" role="tooltip" aria-label="Its me. I am a leftist. Get it?" data-microtip-position="top-left">
-								Top Left
-							</a>
-						</li>
-						<li class="nav__item">
-							<a href="javascript:;" class="nav__link outline" role="button tooltip" aria-label="I continue in single line unless you specify a size" data-microtip-position="top">
-								Top
-							</a>
-						</li>
-						<li class="nav__item">
-							<a href="javascript:;" class="nav__link outline" role="tooltip" aria-label="Emoji? No problem 😎" data-microtip-position="top-right">
-								Top Right
-							</a>
-						</li>
-					</ul>
-
-					<ul class="nav">
-						<li class="nav__item">
-							<a href="javascript:;" class="nav__link outline" role="tooltip" aria-label="I am a large tooltip. I come with no wrapping or pretty pink bows. I am who I am from my head to my toes. I tend to get loud when speaking my mind. Even a little crazy some of the time." data-microtip-position="left" data-microtip-size="large">
-								Left
-							</a>
-						</li>
-						<li class="nav__item">
-							<span class="demo__center">🙌</span>
-						</li>
-						<li class="nav__item">
-							<a href="javascript:;" class="nav__link outline" role="tooltip" aria-label="I am a medium size tooltip. Use me for slightly longer messages" data-microtip-position="right" data-microtip-size="medium">
-								Right
-							</a>
-						</li>
-					</ul>
-
-					<ul class="nav">
-						<li class="nav__item">
-							<a href="javascript:;" class="nav__link outline" role="tooltip" aria-label="I am a medium sized tooltip to the bottom left" data-microtip-position="bottom-left" data-microtip-size="medium">
-								Bottom Left
-							</a>
-						</li>
-						<li class="nav__item">
-							<a href="javascript:;" class="nav__link outline" role="tooltip" aria-label="I am a small message" data-microtip-position="bottom" data-microtip-size="small">
-								Bottom
-							</a>
-						</li>
-						<li class="nav__item">
-							<a href="javascript:;" class="nav__link outline" role="tooltip" aria-label="Look, its me at the bottom right" data-microtip-position="bottom-right">
-								Bottom Right
-							</a>
-						</li>
-					</ul>
-
-			</div>
-		</section>
-		<!-- end .demo -->
+    <section class="mast">
+      <div class="mast__inner">
+        <h1>
+          A modern, elegant and minimal, css only tooltip library
+        </h1>
+        <div class="mast__label">
+          <p class="mast__text">npm install microtip</p>
+        </div>
+        <p class="accent">
+          Just <strong role="tooltip" aria-label="Yup, truestory" data-microtip-position="bottom">1kb</strong> minified and gzipped.
+        </p>
+      </div>
+    </section>
+    <!-- end .mast -->
 
 
-		<section class="doc">
-			<a href="https://github.com/ghosh/microtip#installation">
-			<div class="doc__inner">
-					<span class="doc__image"></span>
-					<span class="doc__cta">Read documentation and usage</span>
-					<span class="doc__arrow"></span>
-			</div>
-			</a>
-		</section>
+    <section class="demo">
+      <div class="demo__inner">
+
+          <ul class="nav">
+            <li class="nav__item">
+              <a href="javascript:;" class="nav__link outline" role="tooltip" aria-label="Its me. I am a leftist. Get it?" data-microtip-position="top-left">
+                Top Left
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="javascript:;" class="nav__link outline" role="tooltip" aria-label="I continue in single line unless you specify a size" data-microtip-position="top">
+                Top
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="javascript:;" class="nav__link outline" role="tooltip" aria-label="Emoji? No problem 😎" data-microtip-position="top-right">
+                Top Right
+              </a>
+            </li>
+          </ul>
+
+          <ul class="nav">
+            <li class="nav__item">
+              <a href="javascript:;" class="nav__link outline" role="tooltip" aria-label="I am a large tooltip. I come with no wrapping or pretty pink bows. I am who I am from my head to my toes. I tend to get loud when speaking my mind. Even a little crazy some of the time." data-microtip-position="left" data-microtip-size="large">
+                Left
+              </a>
+            </li>
+            <li class="nav__item">
+              <span class="demo__center">🙌</span>
+            </li>
+            <li class="nav__item">
+              <a href="javascript:;" class="nav__link outline" role="tooltip" aria-label="I am a medium size tooltip. Use me for slightly longer messages" data-microtip-position="right" data-microtip-size="medium">
+                Right
+              </a>
+            </li>
+          </ul>
+
+          <ul class="nav">
+            <li class="nav__item">
+              <a href="javascript:;" class="nav__link outline" role="tooltip" aria-label="I am a medium sized tooltip to the bottom left" data-microtip-position="bottom-left" data-microtip-size="medium">
+                Bottom Left
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="javascript:;" class="nav__link outline" role="tooltip" aria-label="I am a small message" data-microtip-position="bottom" data-microtip-size="small">
+                Bottom
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="javascript:;" class="nav__link outline" role="tooltip" aria-label="Look, its me at the bottom right" data-microtip-position="bottom-right">
+                Bottom Right
+              </a>
+            </li>
+          </ul>
+
+      </div>
+    </section>
+    <!-- end .demo -->
 
 
-		<footer class="footer tac">
-			<div class="footer__sign">✌️</div>
-			<span class="footer__byline">A little project by <a href="https://twitter.com/_ighosh">@_ighosh</a></span>
-		</footer>
+    <section class="doc">
+      <a href="https://github.com/ghosh/microtip#installation">
+      <div class="doc__inner">
+          <span class="doc__image"></span>
+          <span class="doc__cta">Read documentation and usage</span>
+          <span class="doc__arrow"></span>
+      </div>
+      </a>
+    </section>
 
 
-	</div>
-	<!-- end .container -->
+    <footer class="footer tac">
+      <div class="footer__sign">✌️</div>
+      <span class="footer__byline">A little project by <a href="https://twitter.com/_ighosh">@_ighosh</a></span>
+    </footer>
+
+
+  </div>
+  <!-- end .container -->
 
 </body>
 </html>

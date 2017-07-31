@@ -18,6 +18,12 @@ html, body {
 }
 
 /****************************\
+  Global
+\****************************/
+body {
+  border-top: solid 5px #36c;
+}
+/****************************\
   Utils
 \****************************/
 .clearfix:after {
@@ -160,18 +166,25 @@ h1 {
   text-align: center;
 }
 
-.mast__input {
-  font-size: 20px;
-  font-family: "Source Code Pro", "Inconsolata", "Droid Sans Mono", monospace;
+.mast__label {
   border: 0;
   outline: 0;
   background-color: #3366cc;
-  color: #ffffff;
   padding: 20px 60px;
   border-radius: 4px;
   margin-bottom: 12px;
+  display: inline-block;
 }
 
+.mast__text {
+  font-size: 20px;
+  font-family: "Source Code Pro", "Inconsolata", "Droid Sans Mono", monospace;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
 
 /****************************\
   Demo
