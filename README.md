@@ -29,6 +29,7 @@ Modern, minimal css tooptip library with accessibility baked in. Just `1kb` mini
 - [Setup](#setup)
 - [Usage](#usage)
 - [Customization](#customization)
+- [Related](#related)
 
 &nbsp;
 ## Installation
@@ -130,7 +131,7 @@ The above code will cause all the tooltips to transition over `0.5s` while apply
 You could also customize the tooltip for individual instances by using a selector more specific than `:root`. Example:-
 
 ```css
-.button {
+.tooltip {
  --microtip-transition-duration: 0.2s;
  --microtip-transition-delay: 0s;
  --microtip-transition-easing: ease-in-out;
@@ -141,6 +142,10 @@ The above code would only affect the tooltips shown on any `button` element.
 
 For more on css variables see [here](https://css-tricks.com/now-css-custom-properties-thing-value-parts-can-changed-individually/)
 
+
+&nbsp;
+## Related
+- [Micromodal](https://github.com/Ghosh/micromodal) - Tiny javascript library for creating accessible modal dialogs
 
 
 &nbsp;
