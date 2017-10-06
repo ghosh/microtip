@@ -138,7 +138,7 @@ You could also customize the tooltip for individual instances by using a selecto
 }
 ```
 
-The above code would only affect the tooltips shown on any `button` element.
+The above code would only affect the tooltips shown on any element with the `tooltip` class.
 
 For more on css variables see [here](https://css-tricks.com/now-css-custom-properties-thing-value-parts-can-changed-individually/)
 
