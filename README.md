@@ -20,10 +20,17 @@ Modern, minimal css tooptip library with accessibility baked in. Just `1kb` mini
 
 ---
 
-
 ![Microtip](https://www.dropbox.com/s/gracjkb2rca2zj6/microtip.gif?raw=1)
 
 &nbsp;
+
+<a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/U7SKSneQBRgvgkE68HFbqR1q/ghosh/microtip'>
+  <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/U7SKSneQBRgvgkE68HFbqR1q/ghosh/microtip.svg' />
+</a>
+
+&nbsp;
+
+
 ## Table of Contents
 - [Installation](#installation)
 - [Setup](#setup)
@@ -151,12 +158,6 @@ For more on css variables see [here](https://css-tricks.com/now-css-custom-prope
 &nbsp;
 ## Credits
 - [Claudio Holanda](https://twitter.com/kazzkiq) - Whose work inspired this project
-
-&nbsp;
-
-<a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/U7SKSneQBRgvgkE68HFbqR1q/ghosh/microtip'>
-  <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/U7SKSneQBRgvgkE68HFbqR1q/ghosh/microtip.svg' />
-</a>
 
 &nbsp;
 
