@@ -6,7 +6,7 @@
   "scripts": {
     "test": "stylelint microtip.css && stylelint style.css",
     "minify": "minify microtip.css && minify style.css",
-    "start": "reload -b"
+    "dev": "reload -b"
   },
   "repository": {
     "type": "git",
