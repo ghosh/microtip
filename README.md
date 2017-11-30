@@ -24,12 +24,6 @@ Modern, minimal css tooptip library with accessibility baked in. Just `1kb` mini
 
 &nbsp;
 
-<a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/U7SKSneQBRgvgkE68HFbqR1q/ghosh/microtip'>
-  <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/U7SKSneQBRgvgkE68HFbqR1q/ghosh/microtip.svg' />
-</a>
-
-&nbsp;
-
 
 ## Table of Contents
 - [Installation](#installation)
