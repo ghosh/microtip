@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-Modern, minimal css tooptip library with accesibily baked in. Just `1kb` minified and gzipped.
+Modern, minimal css tooltip library with accesibility baked in. Just `1kb` minified and gzipped.
 </p>
 
 ---
