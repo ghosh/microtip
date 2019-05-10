@@ -104,14 +104,16 @@ By default, the tooltip will takeup only the size it requires to show the text. 
 Microtip uses **css variables**, which allows you to customize the behavior of the tooltip as per your needs.
 
 
-| Variable                         | Description                                        | Default Value |
-|----------------------------------|----------------------------------------------------|---------------|
-| `--microtip-transition-duration` | Specifies the duration of the tootltip transition  | `.18s`        |
-| `--microtip-transition-delay`    | The delay on hover before showing the tooltip      | `0s`          |
-| `--microtip-transition-easing`   | The easing applied while transitioning the tooltip | `ease-in-out` |
-| `--microtip-font-size`           | Sets the font size of the text in tooltip          | `13px`        |
-| `--microtip-font-weight`         | The font weight of the text in tooltip             | `normal`      |
-| `--microtip-text-transform`      | Controls the casing of the text                    | `none`        |
+| Variable                         | Description                                        | Default Value          |
+|----------------------------------|----------------------------------------------------|------------------------|
+| `--microtip-transition-duration` | Specifies the duration of the tootltip transition  | `.18s`                 |
+| `--microtip-transition-delay`    | The delay on hover before showing the tooltip      | `0s`                   |
+| `--microtip-transition-easing`   | The easing applied while transitioning the tooltip | `ease-in-out`          |
+| `--microtip-font-size`           | Sets the font size of the text in tooltip          | `13px`                 |
+| `--microtip-font-weight`         | The font weight of the text in tooltip             | `normal`               |
+| `--microtip-text-transform`      | Controls the casing of the text                    | `none`                 |
+| `--microtip-background-color`    | Sets the background color of the tooltip           | `rgba(17, 17, 17, .9)` |
+| `--microtip-text-color`          | Sets the text color in the tooltip                 | `#ffffff`              |
 
 &nbsp;
 
@@ -124,10 +126,12 @@ Example:-
  --microtip-font-size: 13px;
  --microtip-font-weight: bold;
  --microtip-text-transform: uppercase;
+ --microtip-background-color: #ffffff;
+ --microtip-text-color: #222222;
 }
 ```
 
-The above code will cause all the tooltips to transition over `0.5s` while applying an easing of type `ease-out` after a delay of `1s`. The text will be `bold` and `uppercase` and have a font size of `13px`.
+The above code will cause all the tooltips to transition over `0.5s` while applying an easing of type `ease-out` after a delay of `1s`. The text will be black and `bold` and `uppercase` and have a font size of `13px`. The background color will be white.
 
 You could also customize the tooltip for individual instances by using a selector more specific than `:root`. Example:-
 
