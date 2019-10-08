@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://www.dropbox.com/s/kcn0kccs5bpxhz0/microtip.svg?raw=1" width="180px">
+  <img src="https://www.dropbox.com/s/lux7521vqphtrsz/microtip.png?raw=1" width="200px"/>
 </p>
 
 <p align="center">
