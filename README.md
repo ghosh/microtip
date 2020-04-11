@@ -79,7 +79,7 @@ Make sure, `node_modules` is included in the `includePaths` setting. You can the
 
 Using the tooltip is incredibly simple. Simply add a `aria-label` and `role="tooltip"` attribute to the element on which you want the tooltip to appear. The tooltip message is the attribute value `aria-label="your message"`. This along with a position modifier is all you need to get going. Example:-
 ```html
-<button aria-label="Hey tooltip!" data-microtip-position="up" role="tooltip">
+<button aria-label="Hey tooltip!" data-microtip-position="top" role="tooltip">
 ```
 
 ### Position Modifiers
