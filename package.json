@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "minifier": "^0.8.1",
-    "stylelint": "^9.1.1"
+    "stylelint": "^13.8.0"
   },
   "main": "index.js"
 }
