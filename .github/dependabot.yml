@@ -1,0 +1,16 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: monthly
+    time: "23:30"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: stylelint
+    versions:
+    - 13.8.0
+    - 13.9.0
+  - dependency-name: lodash
+    versions:
+    - 4.17.20
