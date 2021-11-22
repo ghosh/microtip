@@ -91,9 +91,13 @@ You can change the direction of the tooltip by adding a `data-microtip-position`
 
 ### Size Modifiers
 
-By default, the tooltip will takeup only the size it requires to show the text. You can specify sizes by adding a `data-microtip-size` attribute. The accepted values include `small`, `medium`, `large` and `fit`. Example:-
+By default, the tooltip will takeup only the size it requires to show the text. You can specify sizes by adding a `data-microtip-size` attribute. This attribute will set the height and width of the tooltip. The accepted values include `small`, `medium`, `large` and `fit`. Example:-
 ```html
 <button aria-label="This is a decently long text!" data-microtip-position="top-left" data-microtip-size="medium" role="tooltip">
+```
+You can also specify sizes for the width and height by adding the attributes `data-microtip-width` and `data-microtip-height`. Similarly to the `data-microtip-size` attribute, the accepted values include `small`, `medium`, `large` and `fit`. Example:-
+```html
+<button aria-label="This is a decently long text!" data-microtip-position="top-left" data-microtip-width="large" data-microtip-height="small" role="tooltip">
 ```
 
 **Note** - `fit` sets the width of the tooltip to be the same as the width on the element. It only works along with the `top` and `bottom` position modifiers.
