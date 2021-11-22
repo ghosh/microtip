@@ -253,14 +253,62 @@
 [role~="tooltip"][data-microtip-size="small"]::after {
   white-space: initial;
   width: 80px;
+  height: 80px;
+  line-height: 150%;
 }
 
 [role~="tooltip"][data-microtip-size="medium"]::after {
   white-space: initial;
   width: 150px;
+  height: 150px;
+  line-height: 150%;
 }
 
 [role~="tooltip"][data-microtip-size="large"]::after {
   white-space: initial;
   width: 260px;
+  height: 260px;
+  line-height: 150%;
+}
+
+/* ------------------------------------------------
+  [3.1] Size (Width)
+-------------------------------------------------*/
+[role~="tooltip"][data-microtip-width="small"]::after {
+  white-space: initial;
+  width: 80px;
+  line-height: 150%;
+}
+
+[role~="tooltip"][data-microtip-width="medium"]::after {
+  white-space: initial;
+  width: 150px;
+  line-height: 150%;
+}
+
+[role~="tooltip"][data-microtip-width="large"]::after {
+  white-space: initial;
+  width: 260px;
+  line-height: 150%;
+}
+
+/* ------------------------------------------------
+  [3.2] Size (Height)
+-------------------------------------------------*/
+[role~="tooltip"][data-microtip-height="small"]::after {
+  white-space: initial;
+  height: 80px;
+  line-height: 150%;
+}
+
+[role~="tooltip"][data-microtip-height="medium"]::after {
+  white-space: initial;
+  height: 150px;
+  line-height: 150%;
+}
+
+[role~="tooltip"][data-microtip-height="large"]::after {
+  white-space: initial;
+  height: 260px;
+  line-height: 150%;
 }
