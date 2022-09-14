@@ -74,28 +74,19 @@
   height: 6px;
   width: 18px;
   margin-bottom: 5px;
+  transform: translate3d(-50%, 0, 0);
+  bottom: 100%;
+  left: 50%;
 }
 
 [role~="tooltip"][data-microtip-position|="top"]::after {
   margin-bottom: 11px;
-}
-
-[role~="tooltip"][data-microtip-position|="top"]::before {
   transform: translate3d(-50%, 0, 0);
   bottom: 100%;
   left: 50%;
 }
 
-[role~="tooltip"][data-microtip-position|="top"]:hover::before {
-  transform: translate3d(-50%, -5px, 0);
-}
-
-[role~="tooltip"][data-microtip-position|="top"]::after {
-  transform: translate3d(-50%, 0, 0);
-  bottom: 100%;
-  left: 50%;
-}
-
+[role~="tooltip"][data-microtip-position|="top"]:hover::before,
 [role~="tooltip"][data-microtip-position="top"]:hover::after {
   transform: translate3d(-50%, -5px, 0);
 }
@@ -135,29 +126,20 @@
   width: 18px;
   margin-top: 5px;
   margin-bottom: 0;
-}
-
-[role~="tooltip"][data-microtip-position|="bottom"]::after {
-  margin-top: 11px;
-}
-
-[role~="tooltip"][data-microtip-position|="bottom"]::before {
   transform: translate3d(-50%, -10px, 0);
   bottom: auto;
   left: 50%;
   top: 100%;
 }
 
-[role~="tooltip"][data-microtip-position|="bottom"]:hover::before {
-  transform: translate3d(-50%, 0, 0);
-}
-
 [role~="tooltip"][data-microtip-position|="bottom"]::after {
+  margin-top: 11px;
   transform: translate3d(-50%, -10px, 0);
   top: 100%;
   left: 50%;
 }
 
+[role~="tooltip"][data-microtip-position|="bottom"]:hover::before,
 [role~="tooltip"][data-microtip-position="bottom"]:hover::after {
   transform: translate3d(-50%, 0, 0);
 }
