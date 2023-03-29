@@ -264,3 +264,8 @@
   white-space: initial;
   width: 260px;
 }
+
+[role~="tooltip"][data-microtip-size="fit"]::after {
+  white-space: initial;
+  width: 100%;
+}
